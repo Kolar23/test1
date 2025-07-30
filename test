@@ -10,3 +10,6 @@ sudo apt-get update
 
 
 grep -Ri "kubernetes" /etc/apt/sources.list.d/
+
+
+sudo rm /etc/apt/sources.list.d/archive_uri-https_apt_kubernetes_io_-noble.list

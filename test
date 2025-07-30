@@ -6,3 +6,7 @@ sudo rm /etc/apt/sources.list.d/kubernetes.list
 sudo rm /etc/apt/sources.list.d/kubernetes-xenial.list  # If it exists
 
 sudo apt-get update
+
+
+
+grep -Ri "kubernetes" /etc/apt/sources.list.d/
